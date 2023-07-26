@@ -1,0 +1,22 @@
+.paramsButton {
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--grey-light);
+  background-color: var(--grey-light);
+  color: var(--grey-dark);
+  font-family: var(--font-family);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 1rem;
+  right: 1.2rem;
+  outline: none;
+
+  &:hover {
+    background-color: var(--grey-dark) !important;
+    color: var(--white) !important;
+  }
+}

@@ -1,0 +1,32 @@
+.input {
+  padding: 0.5rem;
+  display: block;
+
+  label {
+    display: block;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  input {
+    width: 50%;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid var(--grey-dark);
+    border-radius: 0.25rem;
+    font-family: var(--font-family);
+    box-shadow: 0 0 0 0.2rem var(--white);
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--color-gray);
+    margin-top: 0.5rem;
+    outline: none;
+    transition: var(--transition);
+
+    &:hover,
+    &:focus {
+      box-shadow: 0 0 0 0.2rem var(--grey-dark);
+      transition: var(--transition);
+    }
+  }
+}
