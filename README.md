@@ -18,7 +18,7 @@ v16.17.1
 1. Clone the repository
 
 ```bash
-git clone git@github.com:DoctorPok42/cloud.git
+git clone git@github.com:DoctorPok42/Pheere-App.git
 ```
 
 2. Install dependencies
